@@ -1,0 +1,35 @@
+@import "~slick-carousel/slick/slick.css";
+
+
+.slick-prev,
+.slick-next {
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  font-size: 0;
+  height: 20px !important;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 13px !important;
+}
+
+.slick-prev {
+  background-image: url("../../../assets/Previous Arrow.png");
+  left: -3.5%;
+  position: absolute;
+}
+
+.slick-next {
+  background-image: url("../../../assets/Next Arrow.png");
+  right: -3.5%;
+}
+
+.slick-list {
+  max-width: 785px !important;
+  text-align: center;
+}
+
